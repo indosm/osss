@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<ImageView
+		android:id="@+id/imageView"
+		android:layout_width="fill_parent"
+		android:layout_height="412dp"
+		android:background="#FED345"
+		android:padding="3px" />
+
+	<LinearLayout
+		android:id="@+id/lin_bottom"
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent"
+		android:background="#ffccccff">
+
+		<Button
+			android:id="@+id/btn_back"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="Back to List" />
+	</LinearLayout>
+
+</LinearLayout>

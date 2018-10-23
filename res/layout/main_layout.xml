@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+        <TextView
+            android:id="@+id/txtGPS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPS : " />
+
+        <TextView
+            android:id="@+id/txtWorking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work : " />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ImgQr"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"/>
+
+    <LinearLayout xmlns:adnroid="http://schemas.android.com/apk/res/android"
+        android:id="@+id/menu_layout"
+        android:layout_width="fill_parent"
+        adnroid:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom|center_horizontal">
+
+        <Button
+            android:id="@+id/btnGallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gallery" />
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/homebt_states"
+            android:gravity="bottom"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/btnCalender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calender" />
+    </LinearLayout>
+
+</LinearLayout>
